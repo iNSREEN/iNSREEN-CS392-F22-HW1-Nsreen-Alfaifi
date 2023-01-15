@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color:#8FA2D9;
+}
+.container {
+    padding: 50px;
+  background-color:#d2d9ef
+;
+}
+
+input[type=text], input[type=password], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+ div {
+            padding: 10px 0;
+         }
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<form>
+  <div class="container">
+  <center>  <h1> Child Registeration Form</h1> </center>
+  <hr>
+  <label> First Name: </label> 
+<input type="text" name="firstname" placeholder="FirstName" size="15" required /> 
+<label> Middle Name: </label> 
+<input type="text" name="middlename" placeholder="MiddleName" size="15" required /> 
+<label> Last Name: </label>  
+<input type="text" name="lastname" placeholder="LastName" size="15"required /> 
+<div>
+<label> 
+Age :
+</label> 
+
+<select>
+<option value="Options">Options</option>
+<option value="0-1">0-1</option>
+<option value="1-2">1-2</option>
+<option value="2-3">2-3</option>
+<option value="3-4">3-4</option>
+<option value="4-5">4-5</option>
+</select>
+</div>
+<div>
+<label> 
+Gender : 
+</label><br>
+<input type="radio" value="Male" name="gender" checked > Male 
+<input type="radio" value="Female" name="gender"> Female 
+
+</div>
+<label> 
+Phone :
+</label>
+<input type="text" name="country code" placeholder="Country Code"  value="+966" size="2"/> 
+<input type="text" name="phone" placeholder="phone no." size="10"/ required> 
+Address :  
+<br>  
+<textarea cols="80" rows="5" value="address">  
+</textarea>  
+
+<label for="email"><b>Email</b></label>  
+<input type="text" placeholder="Enter Email" name="email" required>
+
+<button type="submit" class="registerbtn">Register</button>    
+</form>  
+</body>  
+</html>
